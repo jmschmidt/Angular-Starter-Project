@@ -1,0 +1,19 @@
+{
+	"itemList": [
+		{
+			"title": "Item 1",
+			"date": "7/15/2014",
+			"copy": "Lorem ipsum dolor sit amet,tincidunt vitae ligula."
+		},
+		{
+			"title": "Item 2",
+			"date": "7/18/2014",
+			"copy": "Proin egestas magna nec turpis vehicula, at bibendum leo pretium. Nulla ac massa ante."
+		},
+		{
+			"title": "Item 3",
+			"date": "6/21/2014",
+			"copy": "Proin egestas magna nec turpis vehicula, at bibendum leo pretium. Nulla ac massa ante."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html data-ng-app="demoApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Angular Starter App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+		<header ng-include src="'partials/header.html'"></header>
+
+		<!-- Placeholder for views -->
+        <div data-ng-view=""></div>
+
+		<footer ng-include src="'partials/footer.html'"></footer>
+
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular-route/angular-route.min.js"></script>
+		<script src="app/main.js"></script>
+		<script src="app/factories.js"></script>
+		<script src="app/controllers.js"></script>
+    </body>
+</html>
