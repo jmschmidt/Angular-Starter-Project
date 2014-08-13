@@ -5,12 +5,12 @@ demoApp.config(function ($routeProvider) {
 		.when('/',
 			{
 				controller: 'TextController',
-				templateUrl: '/partials/view1.html'
+				templateUrl: '/app/partials/view1.html'
 			})
 		.when('/view2',
 			{
 				controller: 'ListController',
-				templateUrl: '/partials/view2.html'
+				templateUrl: '/app/partials/view2.html'
 			})
 		.otherwise({ redirectTo: '/' }
 	);
